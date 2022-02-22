@@ -7,21 +7,21 @@ This is the template :heart_eyes: use for deep learning project.
 - **experiments**: For other experiments you want to compare.
 - **net**: refer to [pytorch-book](https://github.com/chenyuntc/pytorch-book/blob/master/chapter06-best_practice/PyTorch%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md).
 ```angular2html
-©À©¤©¤ checkpoints/
-©¦   ©¸©¤©¤ epochs/                 # save checkpoints for every epoch
-©À©¤©¤ data/
-©¦   ©À©¤©¤ __init__.py
-©¦   ©À©¤©¤ dataset.py              # encapsulated in the 'DatasetLoad' object
-©¦   ©¸©¤©¤ preprocess.py           # preprocess data in the first directory
-©À©¤©¤ models/
-©¦   ©À©¤©¤ __init__.py
-©¦   ©¸©¤©¤ xxNet.py                # one model corresponds to one file
-©À©¤©¤ runs/                       # output directory of tensorboard
-©À©¤©¤ utils/
-©¦   ©¸©¤©¤ start_tensorboard.sh    # running at server side.
-©À©¤©¤ main.py
-©À©¤©¤ test.py
-©¸©¤©¤ train.py
+â”œâ”€â”€ checkpoints/
+â”‚   â””â”€â”€ epochs/                 # save checkpoints for every epoch
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ dataset.py              # encapsulated in the 'DatasetLoad' object
+â”‚   â””â”€â”€ preprocess.py           # preprocess data in the first directory
+â”œâ”€â”€ models/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â””â”€â”€ xxNet.py                # one model corresponds to one file
+â”œâ”€â”€ runs/                       # output directory of tensorboard
+â”œâ”€â”€ utils/
+â”‚   â””â”€â”€ start_tensorboard.sh    # running at server side.
+â”œâ”€â”€ main.py
+â”œâ”€â”€ test.py
+â””â”€â”€ train.py
 ```
 And thanks to the enthusiastic friends.
 
