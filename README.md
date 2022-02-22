@@ -6,7 +6,7 @@ This is the template :heart_eyes: use for deep learning project.
 - **data**: The input and label dataset.
 - **experiments**: For other experiments you want to compare.
 - **net**: refer to [pytorch-book](https://github.com/chenyuntc/pytorch-book/blob/master/chapter06-best_practice/PyTorch%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md).
-```angular2html
+```
 ©À©¤©¤ checkpoints/
 ©¦   ©À©¤©¤ epochs/                 # save checkpoints for every epoch
 ©À©¤©¤ data/
