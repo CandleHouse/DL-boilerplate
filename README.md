@@ -18,13 +18,20 @@ This is the template :heart_eyes: use for deep learning project.
 │   └── xxNet.py                # one model corresponds to one file
 ├── runs/                       # output directory of tensorboard
 ├── utils/
+│   ├── eval.ipynb              # plot remote server image on localhost
 │   └── start_tensorboard.sh    # running at server side.
 ├── main.py
 ├── test.py
 └── train.py
 ```
-And thanks to the enthusiastic friends.
+Use the following command to start jupyter-notebook on remote server:
+```angular2html
+jupyter-notebook --ip 0.0.0.0
+```
+Then paste `server ip` and `token` on local IDE.
 
 ## Quick Start
 
 Click "Use this template" button on the top right.
+
+_And many thanks to the enthusiastic friends._
