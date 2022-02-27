@@ -13,6 +13,10 @@ This is the template :heart_eyes: use for deep learning project.
 │   ├── __init__.py
 │   ├── dataset.py              # encapsulated in the 'DatasetLoad' object
 │   └── preprocess.py           # preprocess data in the first directory
+├── loss/
+│   ├── __init__.py
+│   ├── MAPELoss.py             # customize loss 1
+│   └── VGGPerceptualLoss.py    # customize loss 2
 ├── models/
 │   ├── __init__.py
 │   └── xxNet.py                # one model corresponds to one file
